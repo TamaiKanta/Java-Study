@@ -15,7 +15,7 @@ public class Qes1_13 {
 		boolean bl;
 		
 		//変数の宣言と初期化
-		String st = "a"; 
+		str = "a"; 
 		
 		//変数の初期化
 		b = 0;
@@ -39,7 +39,7 @@ public class Qes1_13 {
 		bl = true;
 		
 		System.out.println(b + s + i + l);
-		System.out.println(b + b);
+		System.out.println(b - f + f + b);
 		System.out.println(c + str + bl);
 		System.out.println(b + b + b + s + i + l);
 		System.out.println(b * s * i * l);
@@ -68,7 +68,7 @@ public class Qes1_13 {
 		double height2 = Double.parseDouble(height); 
 		double weight2 = Double.parseDouble(weight); 
 		double bmi = weight2 / ((height2 / 100) * (height2 / 100));
-		System.out.println("BMIは"+ bmi +"です");
+		System.out.printf("BMIは%.1fです%n", bmi);
 		
 		
 		name="鈴木一郎";
@@ -89,7 +89,7 @@ public class Qes1_13 {
 		height2 = Double.parseDouble(height); 
 		weight2 = Double.parseDouble(weight); 
 		bmi = weight2 / ((height2 / 100) * (height2 / 100));
-		System.out.println("BMIは"+ bmi +"です");
+		System.out.printf("BMIは%.1fです%n", bmi);
 		
 		
 		name="鈴木一郎";
@@ -110,7 +110,7 @@ public class Qes1_13 {
 		System.out.println("好きな食べ物は"+food+"です");
 		
 		bmi = weight2 / ((height2 / 100) * (height2 / 100));
-		System.out.println("BMIは"+ bmi +"です");
+		System.out.printf("BMIは%.1fです%n", bmi);
 		
 		
 		old2=24;
